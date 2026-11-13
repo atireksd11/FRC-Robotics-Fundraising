@@ -7,15 +7,23 @@ Target: raise **$40,000–50,000 CAD** for the season. Total season costs $78,80
 ## How it works
 
 ```
-Apollo (find people) ──┐
-Google Maps / websites ├─► ChatGPT drafts (per email-rules.md) ─► Atirek reviews ─► Muse sends + tracks
-Boardy / warm intros ──┘         ▲                          │
-Muse (verifies facts) ───────────┘                          ▼
-                                              Gmail + Cold Emailing tab (replies, follow-ups)
-                                              Linear = command centre (tasks, funnels, approvals)
+Apollo (Muse pulls 25-50 contacts/day) ──┐
+Google Maps / websites (main source) ─────┼─► Muse researches + drafts (per email-rules.md)
+Boardy / warm intros ─────────────────────┘         │
+                                                      ▼
+                                            Atirek approves the day's batch
+                                                      │
+                                                      ▼
+                                            Muse sends via Gmail + logs it
+                                                      │
+                                                      ▼
+                                    Gmail + Cold Emailing tab (replies, follow-ups)
+                                    Linear = tracker only (tasks, funnels, approvals)
 ```
 
-One engine: **leads → research → personalized draft → Atirek approves exact text → send → track replies → follow up once after ~7 days → close.** Warm intros first. Start 5 emails/day, scale on reply rate.
+One engine: **leads → research → personalized draft → Atirek approves exact text → send → track replies → follow up once after ~7 days → close.** Warm intros first. 50 emails/day each — Atirek + a friend from the robotics team, working together, 100/day total.
+
+Once the team gets Apollo Pro, the work gets automated on Linear with ChatGPT and Muse just monitors.
 
 ## The five funnels
 
