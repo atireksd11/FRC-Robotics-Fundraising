@@ -40,12 +40,14 @@ Major corporate $20k, local/community $12.5k, partnerships/events $7.5k, grants/
 
 ## What exists already
 
-- Google Sheet: "Sponsorship Master List | NACI Robotics" — https://docs.google.com/spreadsheets/d/1IA4Gd4Q5jctY-2Ij4iffGkD0yku83GLCW239ldbUCXI/edit?usp=sharing
-  - Tabs: Grants/Sponsors, Cold Emailing (tracking — headers only, empty so far), Overview (one-pager — has placeholders, do not send as-is), Corporate Script, Small Biz. Script, Voicemail Script.
+- **DATA HOME sheet: "FRC Spreadsheet - YUVRAJ AND ATIREK"** — https://docs.google.com/spreadsheets/d/1MIKtZ6sDvGx8FociB2mei1zT4r5SddlzbGeRmazX-Ss/edit?usp=sharing
+  - Tabs: Leads (contacts + outreach tracking), Research (deep-research findings), Funding (money: promised / received / in-kind). All new work goes here — this is the data shown to the robotics team.
+- Old sheet: "Sponsorship Master List | NACI Robotics" — https://docs.google.com/spreadsheets/d/1IA4Gd4Q5jctY-2Ij4iffGkD0yku83GLCW239ldbUCXI/edit?usp=sharing — still holds the grants pipeline (Grants/Sponsors tab) and the original scripts. Check it before pitching anyone.
 - Sponsorship package PDF: 2026-2027 NACI Robotics Sponsorship Package.
 - Team website: https://www.2935.ca
-- Linear: team "Robotics" (ROB), project "Robotics Funding OS" (P-ROB-3). Issues: ROB-1 warm intros, ROB-2 email drafts, ROB-3 lead research, ROB-4 follow-ups, ROB-5 grants, ROB-6 partnerships, ROB-7 ops, ROB-8 donations.
-- GitHub repo (source of truth for templates/rules): https://github.com/atireksd11/FRC-Robotics-Fundraising. No real contact data in the repo — leads live in the sheet only.
+- Linear: team "Robotics" (ROB), project "Robotics Funding OS" (P-ROB-3). Issues: ROB-1 warm intros, ROB-2 email drafts, ROB-3 lead research, ROB-4 follow-ups, ROB-5 grants, ROB-6 partnerships, ROB-7 ops, ROB-8 donations, ROB-9 Codex connection test.
+- GitHub repo: https://github.com/atireksd11/FRC-Robotics-Fundraising — README, email-rules.md, this file, leads-template.csv. No real contact data in the repo — leads live in the sheet only.
+- Yuvraj — friend, also on the robotics team. Does his own 50 emails/day alongside Atirek (100/day total). The Muse daily pull covers Atirek's share.
 
 ## How the whole system works (simplified Nov 12 evening)
 
@@ -96,7 +98,7 @@ Muse does NOT need Composio here — direct Gmail + Linear connectors already co
 
 ## How the workflow runs (Muse-direct, Nov 12 evening)
 
-1. Daily pull (time TBD): Muse signs into Apollo, pulls 25-50 useful contacts, plus Maps/websites leads. For each: company, contact name + role, why this company fits Team 2935 (one real detail).
+1. Daily pull (~7:40am Toronto time, cron "frc-daily-apollo-pull"): Muse signs into Apollo, pulls 25-50 useful contacts, plus Maps/websites leads. For each: company, contact name + role, why this company fits Team 2935 (one real detail).
 2. Muse drafts one email per lead, following `email-rules.md` exactly. Connection first, ask second.
 3. Muse shows Atirek the day's batch. Atirek approves, then Muse sends via Gmail.
 4. Muse logs each send in the Cold Emailing tab: Business Name, Email Addresses, Status (sent), Last Contacted, Next Follow-Up.
